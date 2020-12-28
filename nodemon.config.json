@@ -1,0 +1,17 @@
+{
+  "restartable": "rs",
+  "ignore": [
+    ".git",
+    "node_modules/",
+    "dist/",
+    "coverage/",
+    ".eslintrc.json",
+    ".prettierrc",
+    "package-lock.json",
+    "package.json",
+    "tsconfig.json"
+  ],
+  "watch": ["src/"],
+  "env": { "NODE_ENV": "development" },
+  "ext": "js,json,ts"
+}

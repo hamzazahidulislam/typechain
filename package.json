@@ -1,0 +1,32 @@
+{
+  "name": "typechain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.ts",
+    "prestart": "tsc",
+    "dev": "nodemon --config nodemon.config.json src/index.ts",
+    "build": "tsc",
+    "tsc-watch": "tsc-watch --onSuccess \" node src/index.ts\" "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.0",
+    "nodemon": "^2.0.6",
+    "prettier": "^2.2.1",
+    "ts-node": "^9.1.1",
+    "tsc-watch": "^4.2.9",
+    "typescript": "^4.1.3",
+    "@types/crypto-js": "^4.0.1"
+  },
+  "dependencies": {
+    "crypto-js": "^4.0.0"
+  }
+}
